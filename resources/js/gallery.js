@@ -5,15 +5,16 @@
  * @returns {undefined}
  */
 function showMsg(selected_image) {
-    // finding message container
+    // finding message container div
     const message_box = document.getElementById("msg");
     // extracting message from selected image
+    // ie. extracting value of attribute msg in <img>
     const message = selected_image.getAttribute("msg");
     // setting message for the selected image
     message_box.innerHTML = message;
-    // checking if image is hidden
+    // checking if message for the image is hidden
     if (message_box.style.display == "none") {
-        // making message box visible be setting empty display style
+        // making message box visible by setting empty display style
         message_box.style.display = "";
     } else {
         // hiding message box by making display style none.
