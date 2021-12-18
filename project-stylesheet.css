@@ -1,0 +1,332 @@
+/* The yellow/black background image */
+body {
+  background-image: url('background-image.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+/* Styling the <h1> writings */
+h1{
+font-family: 'Paytone One', sans-serif;
+color: #FFD400;
+font-size: 40px;
+padding-left: 20px;
+}
+
+/* Styling the <p> writings */
+p{
+font-family: 'Shippori Antique', sans-serif;
+color: white;
+font-size: 18px;
+padding-left: 20px;
+float: left;
+}
+
+/*************************/
+/*    Styling  Header    */
+/*************************/
+header{
+
+    overflow: hidden;
+}
+
+.top-header{
+
+    text-align: center;
+    height: 60px;
+}
+
+/****************/
+/* Styling Logo */
+/****************/
+
+.logo img{
+	float: right;
+    padding-right: 20px;
+	padding-top: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+/***************************/
+/* Styling Navigation Menu */
+/***************************/
+
+.menu{
+    float: left;
+    width: 70;
+    height: 100%;
+    margin: none;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.menu ul{
+    font-family: 'Acme', sans-serif;
+	font-size: 15px;
+	text-align: center;
+    float: left;
+    margin: none;
+    background: #000000;
+}
+
+.menu li{
+    display: inline-block;
+    padding: none;
+    margin: none;
+}
+
+.menu li a, .menu li span{
+    display: inline-block;
+    padding: 0em 1.5em;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+.menu li a{
+
+    color: #FFD400;
+}
+
+.menu li:hover a, .menu li span{
+    background: #FFD400;
+    color: #000000;
+    border-left: 1px solid #FFF;
+    text-decoration: none;
+}
+
+a:link{
+color: #FFD400;
+}
+
+/* Styling the "click me" button */
+#btn {
+font-size: 14px;
+margin-left: 20px;
+font-family: 'Shippori Antique', sans-serif;
+background-color: #FFD400;
+border-color: black;
+border-top-width: 1px;
+border-bottom-width: 1px;
+border-left-width: 1px;
+border-right-width: 1px;
+float: left;
+}
+
+/* Styling the divider line */
+hr.solid{
+  border-top: 3px solid black;
+}
+
+/* Styling the image of a player */
+.our-story-image{
+	float: left;
+    height: 350px;
+    width: 550px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+/* Styling the "our story" title */
+.our-story {
+text-align: center;
+padding-left: 20px;
+float: left;
+}
+
+/* Styling the "our story" paragraph */
+.our-story-paragraph {
+padding-left: 20px;
+margin-right: auto;
+width: 40em
+}
+
+/* Styling the message which appears when the contact form submit button is pressed */
+.messageReply{
+padding-left: 0px;
+color: white;
+background-color: black;
+}
+
+/* Styling the contact form labels */
+.contactFormLabels{
+font-family: 'Shippori Antique', sans-serif;
+color: white;
+font-size: 13px;
+}
+
+/* Styling the contact form labels */
+::placeholder {
+font-family: 'Shippori Antique', sans-serif;
+color: black;
+font-size: 13px;
+opacity: 0.5;
+}
+
+/* Contact-form submit button */
+.contactSubmitButton{
+font-family: 'Shippori Antique', sans-serif;
+color: black;
+background-color: #90ee90;
+font-size: 13px;
+}
+
+/* "Send us a message" title */
+.send-us-a-message-title{
+padding-left: 20px;
+}
+
+/* "Send us a message" paragraph */
+.send-us-a-message-paragraph{
+width: 40em
+}
+
+/* "Send us a message" paragraph */
+.send-us-a-message-paragraph{
+padding-left: 20px;
+}
+
+/* Styling the image of social media buttons */
+.social-buttons{
+    height: 100px;
+    width: 400px;
+}
+
+/* Hide and show buttons */
+.hideAndShowButton{
+font-family: 'Shippori Antique', sans-serif;
+color: black;
+background-color: #FFD400;
+font-size: 13px;
+}
+
+/* The contact form */
+#theContactForm{
+padding-left: 20px;
+}
+
+/* Hide and show buttons in the contact form */
+#hideAndShow{
+padding-left: 20px;
+}
+
+#reply2{
+padding-left: 20px;
+}
+
+#reply{
+padding-left: 10px;
+padding-right: 10px;
+}
+
+#snippet2{
+background-color: white;
+color: black;
+font-family: 'Shippori Antique', sans-serif;
+padding-left: 5px;
+padding-right: 5px;
+padding-bottom: 2px;
+}
+
+.snippet1{
+width: 42em
+}
+	
+.snippet1{
+padding-left: 20px;
+}
+	
+.game-submit{
+font-size: 13px;
+font-family: 'Shippori Antique', sans-serif;
+background-color: #FFD400;
+}
+
+#game{
+padding-left: 20px;
+}
+
+.game-title{
+padding-left: 20px;
+}
+
+#rightNumber{
+padding-left: 20px;
+}
+
+#wrongNumber{
+padding-left: 20px;
+}
+
+.reply3{
+padding-left: 0px;
+color: black;
+background-color: #90ee90;
+}
+
+.reply4{
+padding-left: 0px;
+color: white;
+background-color: red;
+}
+
+.mini-game-pic{
+	float: left;
+    height: 350px;
+    width: 550px;
+	padding-left: 20px;
+}
+
+#theGame{
+float: right;
+padding-right: 20px;
+}
+
+/***************************/
+/* gallery css starts here */
+/***************************/
+.gallery-box{
+  max-width: 800px;
+  margin: 5% auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-sizing: border-box;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+}
+#texy{
+  text-align: center;
+  color: #FFD400;
+  text-shadow: 2px 2px 4px black;
+  font-size: 40px;
+  font-family: 'Paytone One', sans-serif;
+}
+.inner2{
+  border:2.5px solid black;
+  width: auto;
+  color:black;
+  padding:20px;
+  font-family: 'Shippori Antique', sans-serif;
+}
+
+.joinUsTitle{
+padding-left: 20px;
+}
+
+#theReply{
+padding-left: 10px;
+padding-right: 10px;
+}
+
+#reply7{
+padding-left: 20px;
+}
+
+#theImages{
+padding-left: 10px;
+}
