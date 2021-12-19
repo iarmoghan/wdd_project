@@ -286,9 +286,10 @@ float: right;
 padding-right: 20px;
 }
 
-/***************************/
-/* gallery css starts here */
-/***************************/
+/*******************************************/
+/* gallery css starts here by armughan      **/
+/*******************************************/
+/* this is the css for the gallery box in whic images are put */
 .gallery-box{
   max-width: 800px;
   margin: 5% auto;
@@ -299,6 +300,7 @@ padding-right: 20px;
   box-sizing: border-box;
   box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
 }
+/* this is the css for the text "Gallery" at the start of the gallery box */
 #texy{
   text-align: center;
   color: #FFD400;
@@ -306,6 +308,7 @@ padding-right: 20px;
   font-size: 40px;
   font-family: 'Paytone One', sans-serif;
 }
+/* this is the css for the box and the texgt inside the box that comes after you click images */
 .inner2{
   border:2.5px solid black;
   width: auto;
@@ -313,7 +316,9 @@ padding-right: 20px;
   padding:20px;
   font-family: 'Shippori Antique', sans-serif;
 }
-
+/************************/
+/* gallery css ends here **/
+/************************/
 .joinUsTitle{
 padding-left: 20px;
 }
