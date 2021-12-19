@@ -4,6 +4,7 @@
  * @param {object} selected_image - The selected image.
  * @returns {undefined}
  */
+//made by Armughan
 function showMsg(selected_image) {
     // finding message container div
     const message_box = document.getElementById("msg");
