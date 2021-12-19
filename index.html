@@ -2,18 +2,21 @@
 <html lang="en" dir="ltr">
    <head>
       <title>Homepage</title>
+      <!-- 	Bootsrap -->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <!-- Website stylesheet	 -->
       <link rel="stylesheet" href="resources/styles/project-stylesheet.css"/>
       <!-- Font for small paragraphs -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <!-- Font for big headings -->
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Shippori+Antique&display=swap" rel="stylesheet">
+      <!-- 	Charset attribute -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=0">
    </head>
    <body>
-      <!-- Header Menu of the Page -->
+      <!-- Menu of the Page -->
       <div class="row">
          <div class="col-sm-6">
             <!-- Header -->
@@ -41,22 +44,27 @@
       <br>
       <div class="row">
          <div class="col-sm-12">
+            <!-- title -->
             <h1 class="master2">TABLE TENNIS NCI</h1>
             <br>
             <p class="master2">
                <!-- Leave this space empty --> 
             </p>
             <br>
+            <!-- paragraph -->
             <p class="master2">Don't make excuses and be a looser, train with NCI and be a champion.</p>
             <br>
             <br>
+            <!-- "click me" button -->
             <button id="btn">Click me</button>
+            <!-- JavaScript for the tagline -->
             <script>
                const btn = document.getElementById('btn')
                       
                       btn.addEventListener('click', function master(){
                           var master = document.getElementsByClassName("master2");
-                          master[2].innerHTML = 'What are you waiting for?! <a href="./join-us.html">Click here </a>to join us now.'
+                         // This text will show when the "click me" button is pressed 
+                         master[2].innerHTML = 'What are you waiting for?! <a href="./join-us.html">Click here </a>to join us now.'
                       })
                
             </script>
@@ -72,11 +80,13 @@
             <img src="resources/img/player.webp" alt="" class="our-story-image">
          </div>
          <div class="col-sm-6">
-            <!-- Our story -->
+            <!-- Title -->
             <h1 class="our-story"> OUR STORY </h1>
+            <!-- paragraph -->
             <p class="our-story-paragraph"> Our club was founded in 2021 by a computing student, Abdullah, a professional player who wanted more NCI students to become very skilled at table tennis. Starting with only one club leader (Abdullah) and a few members, the club now has two more leaders: Maxim and Armughan, who are also professional players. Furthermore, the club now has 36 members! </p>
          </div>
       </div>
+      <!-- javascript for the minigame-->
       <script>
          function miniGame(){
          
@@ -86,11 +96,13 @@
          // the user's number which they choose
          var theGuess = document.getElementById("enterGuess").value;
          
+         // congratulate the user
          if(randomNumber == theGuess){
          document.getElementById("rightGuess").innerHTML = "Well done! You guessed the correct number. Refresh this page to play again.";
          document.getElementById('wrongGuess').style.visibility='hidden'
          }
          
+         // tell the user to try again   
          if(randomNumber !== theGuess){
          document.getElementById("wrongGuess").innerHTML = "Try again.";
          }
@@ -102,8 +114,10 @@
             <!-- Divider line --> 
             <hr class="solid">
             <br>
+            <!-- title -->
             <h1 class="game-title">TABLE TENNIS MINI GAME</h1>
             <br>
+            <!-- paragraph -->
             <p class="snippet1"> <span id="snippet2">How to play:</span> In table tennis matches: The first player to score 11 points, is the winner. Patrick has just won a table tennis match against John. Although John lost in this match, guess the number of points he scored against patrick: Between 1 to 10.</p>
             <br>
             <br>
@@ -111,18 +125,23 @@
             <br>
             <br>
             <div id="game">
+               <!-- "enter a guess" field of the mini game -->
                <input type = "text" id = "enterGuess" placeholder="Enter a guess">
+               <!-- submit button -->
                <input type = "submit" value = "Submit" class = "game-submit" onclick="miniGame()">
             </div>
             <br>
             <div id="rightNumber">
+               <!-- mini game feedback -->
                <p id="rightGuess" class="reply3"> </p>
             </div>
             <div id="wrongNumber">
+               <!-- mini game feedback -->
                <p id="wrongGuess" class="reply4"> </p>
             </div>
          </div>
       </div>
+      <!-- 	Bootsrap -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
    </body>
 </html>
